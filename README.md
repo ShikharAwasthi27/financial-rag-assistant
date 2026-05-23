@@ -24,6 +24,11 @@ The assistant is designed to support financial analysis tasks such as:
 
 # How to run
 pip install -r requirements.txt
+
 python main.py
+
+streamlit run app/streamlit_app.py
+
+uvicorn app.api:app --reload
 streamlit run app/streamlit_app.py
 uvicorn app.api:app --reload
