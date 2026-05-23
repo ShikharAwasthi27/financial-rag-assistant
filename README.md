@@ -30,5 +30,3 @@ python main.py
 streamlit run app/streamlit_app.py
 
 uvicorn app.api:app --reload
-streamlit run app/streamlit_app.py
-uvicorn app.api:app --reload
